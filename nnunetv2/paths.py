@@ -15,7 +15,11 @@
 import os
 
 """
+<<<<<<< HEAD
 PLEASE READ paths.md FOR INFORMATION TO HOW TO SET THIS UP
+=======
+PLEASE READ documentation/setting_up_paths.md FOR INFORMATION TO HOW TO SET THIS UP
+>>>>>>> upstream/master
 """
 
 nnUNet_raw = os.environ.get('nnUNet_raw')

@@ -96,7 +96,8 @@ ENV/
 *.jpeg
 .idea
 .idea/*
-*.nii.gz
+*.png
+# *.nii.gz  # nifti files needed for example_data for github actions tests
 *.nii
 *.tif
 *.bmp
@@ -106,3 +107,5 @@ ENV/
 *.pdf
 
 *.model
+
+!documentation/assets/scribble_example.png
